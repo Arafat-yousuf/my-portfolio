@@ -36,15 +36,18 @@ body{
      border-image-slice: 1;
  
  }
- #some_description{
+ .some_description{
  
      text-align: center;
+     font-size: 18px;
+     font-weight: 600;
  
  }
  #Founder{
      text-align: center;
      font-size: 10px;
      color:gray;
+     margin-bottom: 30px;
  }
  #Bruce_moccoy{
      text-align: center;
@@ -53,8 +56,10 @@ body{
  }
  #client_say{
      text-align: center;
-     font-size: 25px;
-     color:gray;
+     font-size: 40px;
+     color:black;
+     margin-bottom: 50px;
+     margin-top: 200px;
  }
  
  /* classes section */
@@ -62,7 +67,7 @@ body{
      color: rgb(248, 73, 132);
  }
  .half{
-     width: 40%;
+     width: 30%;
      float:left;
      margin-left: 5%;
      padding-left: 2%;
@@ -80,6 +85,8 @@ body{
  
  .right-half{
      margin-top:0px;
+     position: relative;
+     left: 100px;
  }
  .link_button{
          text-decoration: none;
@@ -104,18 +111,20 @@ body{
  .align_text_middle{
      text-align: center;
      font-size: 40px;
-     color: orangered;
+     margin-bottom: 100px;
  }
  .Work_div{
      width: 30%;
      float:left;
      margin-left: 0%;
-     padding-left: 3%;
+     margin-right: 3%;
      box-shadow: 8px 10px 15px 4px gray;
  }
  
  .My_latest_work{
      height: 600px;
+     margin-left: 80px;
+     margin-right: 20px;
  }
  .Work_div img{
      width: 100%;
@@ -142,7 +151,7 @@ body{
      margin-bottom: 75px;
  }
  .first_part{
-     margin-bottom: 30px;
+     margin-bottom: 80px;
 
  }
  
@@ -152,14 +161,24 @@ body{
      padding:10px  20px;
     margin-left: 305px;
     margin-right: 305px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
      border-radius: 5px;
      color: white;
      align-items: center;
+     min-width: 100px;
  }
  footer p{
      font-size: 12px;;
  }
- .last_sec{
-     margin-left: 10px;
+ div .text{
+     position: relative;
+     top: 200px;
  }
+ #message_us{
+     font-size: 15px;
+ }
+ #email{
+     font-size: 20px;
+ }
+ 
+ 
